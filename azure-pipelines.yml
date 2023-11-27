@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  default:
+  default
 
 steps:
 - task: ArchiveFiles@2
