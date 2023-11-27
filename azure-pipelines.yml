@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  default
+  vmImage: ubuntu-latest
 
 steps:
 - task: ArchiveFiles@2
